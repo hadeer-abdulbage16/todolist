@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+   
+  </head>
+  <body>
+    <h1 class="text-center display-1">ToDo LIST</h1>
+   <div class="container col-8">
+    <div class="card">
+      <div class="card-body">
+        <div class="form-group">
+          <input type="text" id="taskinput" placeholder="Enter Your Task" class="form-control text-center">
+        </div>
+        <div class="d-grid">
+          <button id="addtaskbtn" class="btn ">Add Task</button>
+        </div>
+      </div>
+    </div>
+   </div>
+   <div class="col-4 mx-auto ">
+    <hr>
+   </div>
+   <h1 class="text-center display-4 ">
+    YOUR TASK
+   </h1>
+   <div class="container ">
+    <div class="card">
+      <div class="card-body">
+        <div class="grid cintainer mx-auto my-2  text-center m-auto">
+          <button id="removetasks" class="btn btn-danger w-50 none ">Remove All Tasks</button>
+
+        </div>
+         <div id="emptytask" class="alert alert-danger ~ text-center">
+          Task Empty
+         </div>
+         <div id="alltasks">
+
+         </div>
+      </div>
+    </div>
+   </div>
+   
+    <script src="js/main.js"></script>
+  </body>
+</html>

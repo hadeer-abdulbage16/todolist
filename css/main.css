@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #718355;
+    color: white;
+}
+body div{
+    background-color: #87986A;
+}
+body div .card{
+    border: none;
+}
+.none{
+    display: none;
+}
+
+.card #addtaskbtn{
+    margin-top: 10px;
+    background-color: #b5c99A;
+    color: white;
+    font-size: 25px;
+}
+.checked{
+    background-color: #cfe1b9;
+    text-decoration: line-through;
+}
