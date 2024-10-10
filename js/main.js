@@ -20,18 +20,7 @@ let checkemptytask=()=>{
 let addtask=()=>{
    emptytask.classList.add("none");
    let taskvalue=entertask.value;
-   
-   /*ecma
-   *let taskdiv =document.createElement('div');
-   taskdiv.classList.add('alert', 'alert-success');
-   taskdiv.append(taskvalue);
-   alltasks.append(taskdiv);
-   
-  let deleticon=document.createElement('button');
-  deleticon.classList.add("btn",'text-danger',"fa-solid", "fa-trash", 'float-end');
- 
- taskdiv.append(deleticon);
- */
+
 if(taskvalue.trim()==""){
    alert('please enter your task')
 }else{
@@ -73,7 +62,7 @@ document.addEventListener("click",function(event){
    }});
 
 
-
+   
 
 
 
